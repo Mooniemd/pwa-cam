@@ -19,7 +19,7 @@ html, body{
       padding: 15px 20px;
       text-align: center;
       box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-      position: static;
+      position: fixed;
       bottom: 30px;
       left: calc(50% - 100px);
   }
@@ -34,18 +34,11 @@ html, body{
     padding: 15px 20px;
     text-align: center;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-    position: static;
-    bottom: 30px;
+    position: fixed;
+    bottom: 80px;
     left: calc(50% - 100px);
   }
 
-  .grid{
-    margin: 10px;
-    margin-left: 35% ;
-    display: grid;
-    gap: 150px;
-    grid-template-columns: 100px 100px 100px;
-  }
   .taken{
       height: 100px!important;
       width: 100px!important;
