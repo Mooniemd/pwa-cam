@@ -54,9 +54,9 @@ cameraSwitch.onclick = function () {
 }
 
 function stopMediaTracks(stream){
-  stream.getTracks(forEach(track =>{
+  stream.getTracks().forEach(track =>{
     track.stop();
-  }))
+  })
 }
 
 // carrega imagem de camera quando a janela carregar
