@@ -45,7 +45,7 @@ cameraTrigger.onclick = function () {
   cameraOutput.classList.add("taken");
 };
 
-cameraSwitcher.onclick = function () {
+cameraSwitch.onclick = function () {
   stopMediaTracks(cameraView.srcObject);
   caMode = caMode === "user" ? "environment" : "user";
   constraints = { video: { facingMode: caMode}, audio: false};

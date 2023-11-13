@@ -40,7 +40,6 @@ html, body{
   }
 
   .grid{
-    cursor: pointer;
     margin: 10px;
     margin-left: 35% ;
     display: grid;
